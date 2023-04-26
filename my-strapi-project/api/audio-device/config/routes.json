@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/audio-devices",
+      "handler": "audio-device.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/audio-devices/count",
+      "handler": "audio-device.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/audio-devices/:id",
+      "handler": "audio-device.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/audio-devices",
+      "handler": "audio-device.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/audio-devices/:id",
+      "handler": "audio-device.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/audio-devices/:id",
+      "handler": "audio-device.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

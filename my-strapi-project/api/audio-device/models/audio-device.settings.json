@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "audio_devices",
+  "info": {
+    "name": "audio_device"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "manufacturer": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "price": {
+      "type": "float"
+    },
+    "power": {
+      "type": "integer"
+    }
+  }
+}
